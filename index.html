@@ -9,7 +9,27 @@
 <body>
     <center>
     <h1>Switch Statement</h1>
+    <button class="btn btn-info" onclick="teamrank()">Rank</button>
+
     <script>
+
+    function teamrank(){
+        var rank = "1st";//string
+
+        switch(rank){
+            case "1st":
+                alert("RED CHAMPION!")
+            case "2nd":
+                alert("u aint us!")
+            case "3rd":
+                alert("ur meh!")
+            case "4th":
+                alert("ur bad!")
+            default:
+                alert("ur team is trash")
+        }
+    }        
+
         let team ="redchampion";//string
 
         switch(team){
